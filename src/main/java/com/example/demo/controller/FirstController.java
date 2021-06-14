@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 @Slf4j
 @Controller
 public class FirstController {
-
+//...
     @GetMapping ("/list")
     public String doHtmlList() {
         log.info("doHtmlList()");
